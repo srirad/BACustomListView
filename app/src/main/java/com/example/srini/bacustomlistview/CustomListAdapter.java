@@ -29,7 +29,7 @@ public class CustomListAdapter extends ArrayAdapter<String> {
     //    View rowView=inflater.inflate(R.layout.mylist, null,true);
         View rowView=inflater.inflate(R.layout.list_row, null,true);
 
-/* test Git Hub */
+
         ImageView imageView = (ImageView) rowView.findViewById(R.id.list_image);
         imageView.setImageResource(imgid[position]);
    /*     TextView txtTitle = (TextView) rowView.findViewById(R.id.item);
